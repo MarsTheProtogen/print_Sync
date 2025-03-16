@@ -5,6 +5,9 @@ Overview
 
 In automated workflows, especially those involving files used in 3D printing or modeling, maintaining system integrity is critical. py_talk provides an extra layer of protection by:
 
+### NOTE:
+this project is still in progress, not all features are available publicly at the moment
+
 ### Scanning for Malware:
 The server verifies files for malware and ensures that they match expected file types (e.g., STL, OBJ).
 Isolation on Detection: Files suspected of containing malware are immediately moved to a designated JAIL directory, and an email warning is triggered.
