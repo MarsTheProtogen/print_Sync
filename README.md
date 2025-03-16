@@ -10,6 +10,7 @@ The server verifies files for malware and ensures that they match expected file 
 Isolation on Detection: Files suspected of containing malware are immediately moved to a designated JAIL directory, and an email warning is triggered.
 Security Status Monitoring: In the event of a detected infection, the server either shuts down or updates its status via a dedicated endpoint (GET /status) to return {"secure": false}.
 Intermediary Processing: Only files that pass these security checks are allowed to be downloaded and processed on the client side, keeping your sensitive systems protected.
+<br><br>
 
 # Why Use py_talk?
 
@@ -24,6 +25,7 @@ Uses secure protocols (SSH/SFTP) for file downloads and robust logging for troub
 
 Future-Ready Architecture:
 Although the current implementation is for local machines, the design is modular enough to expand to decentralized systems in the future.
+<br><br>
 
 # Features
 
@@ -54,6 +56,7 @@ The py_talk class in client.py provides methods to:
 
 ## Logging and Error Handling:
 Detailed logs (stored in scanning.log) capture operations, errors, and security events for monitoring and debugging purposes.
+<br><br>
 
 # Current Implementation
 
@@ -65,8 +68,9 @@ The focus is on common 3D printing file formats such as STL and OBJ, ensuring th
 
 Disposable System as a Firewall:
 Acts as an intermediary layer to prevent potentially infected files from reaching more sensitive environments.
+<br><br>
 
-# Future Enhancements
+# Future Improvements
 
 ##### Detailed Security Checks:
 Additional scanning capabilities and more comprehensive file integrity checks will be implemented to further safeguard against infections.
@@ -79,6 +83,7 @@ Although the current version is for local machines, future releases may expand t
 
 ##### No Web Dashboards Planned:
 At this time, the focus is solely on backend processing and security; no web dashboards are planned for the near future.
+<br><br>
 
 # Installation & Setup
 
@@ -118,6 +123,7 @@ Verify that the RSA key exists and the download directory is writable.
 Run the client:
 
   ```python client.py```
+<br><br>
 
 # Usage
 ## Server API Endpoints
@@ -146,6 +152,7 @@ Sends a request to remove a specific file from the scanned list, moving it to DO
 
 ##### download_scanned_file(files: list):
 Establishes a secure SSH connection to download specified files from the server’s sync directory to the local download directory.
+<br><br>
 
 # Code Structure Overview
 
@@ -161,3 +168,16 @@ Contains the py_talk class which:
     Loads configuration from settings.json.
     Communicates with the server to list, remove, and download scanned files.
     Uses Paramiko for secure file transfers via SSH/SFTP.
+
+
+<br></br>
+
+<br></br>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+<br></br>
