@@ -14,7 +14,7 @@ py_talk provides an **extra layer of protection** by:
 
 This **isolated processing model** was inspired by security structures used by large corporations, where subsystems are **compartmentalized** to prevent infections from spreading.
 
-## ***This is not a replacement to anti malware and other forms of cyber attacks, but rather a check for specific file types that will be processed often***
+### ***This is not a replacement to anti malware and other forms of cyber attacks, but rather a check for specific file types that will be processed often to help against DoS attacks i.e memory over flows, craches, etc***
 
 <br></br>
 > **NOTE:** This project is still in progress, and not all features are publicly available.
