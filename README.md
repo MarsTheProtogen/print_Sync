@@ -1,13 +1,13 @@
-# py_talk Documentation v0.0.0
+# Print Sync Documentation v0.0.0
 
-py_talk is a lightweight Python-based system designed to enhance the safety of automated downloads by acting as a **disposable firewall**. It is currently implemented for **local machines** and serves as an intermediary for processing common 3D printing files (such as **STL and OBJ**) before allowing them to reach more sensitive production environments. By isolating downloads and performing security checks, py_talk aims to **prevent malware infections from spreading**.
+print_Sync is a lightweight Python-based system designed to enhance the safety of automated downloads by acting as a **disposable firewall**. It is currently implemented for **local machines** and serves as an intermediary for processing common 3D printing files (such as **STL and OBJ**) before allowing them to reach more sensitive production environments. By isolating downloads and performing security checks, print_Sync aims to **prevent malware infections from spreading**.
 
 ---
 ## Overview
 
 In automated workflows—specificaly those involving **3D printing files**—maintaining system integrity is crucial to contunuous operation.
 
-py_talk provides an **extra layer of protection** by:
+print_Sync provides an **extra layer of protection** by:
 - Allowing a **disposable system** to process unverified files before moving them to a more secure environment.
 - Preventing **direct exposure** of sensitive systems to files from untrusted sources.
 - Enabling a **two-stage processing approach**, allowing faster uploads that can be processed later without security risks.
@@ -33,7 +33,7 @@ The server performs the following security tasks:
 
 
 ---
-# Why was py_talk created?
+# Why was print_Sync created?
 
 ### ✅ Enhanced Security
 Acts as a **disposable firewall** to prevent malware from reaching sensitive systems.
@@ -66,7 +66,7 @@ Returns the server's **security status**:
 ---
 
 ## 🖥️ Client Operations
-The `py_talk` class in `client.py` provides methods to:
+The `print_Sync` class in `client.py` provides methods to:
 - Retrieve **scanned files** from the server.
 - Remove processed files (moving them to the **DONE** directory).
 - Download **verified files** securely via **SSH/SFTP**.
@@ -117,8 +117,8 @@ Acts as an **isolated pre-processing stage**, preventing **direct exposure** of 
 
 ## 📥 Clone the Repository
 ```sh
-git clone https://github.com/MarsTheProtogen/py_talk.git
-cd py_talk
+git clone https://github.com/MarsTheProtogen/print_Sync.git
+cd print_Sync
 ```
 
 ## 📦 Install Dependencies
@@ -200,7 +200,7 @@ Handles:
 
 ---
 
-🚀 **py_talk** is designed to **securely handle automated downloads** while protecting sensitive systems. Future updates will enhance **security, decentralization, and automation.**
+🚀 **print_Sync** is designed to **securely handle automated downloads** while protecting sensitive systems. Future updates will enhance **security, decentralization, and automation.**
 
 ---
 
