@@ -4,7 +4,7 @@ print_Sync is a lightweight Python-based system designed to enhance the safety o
 
 ---
 
-## Please read the `about_me.md` if your intrested in more about the project
+## Please read the `ABOUT.md` if your intrested in more about the project
 
 ---
 
