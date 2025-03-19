@@ -92,7 +92,6 @@ def download_attachments():
         logging.error(f"[ERROR] {e}")
 
 
-
 def send_email(subject, body, to_email):
     """Send an email using SMTP."""
     try:
@@ -113,6 +112,6 @@ def send_email(subject, body, to_email):
     except Exception as e:
         print(f"[ERROR] Failed to send email: {e}")
 
-
+# test sending email
 if __name__ == "__main__":
     send_email("New 3D Model Attachments", "Please find the new 3D model attachments attached.", "74lcheung@gmail.com")
