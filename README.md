@@ -3,6 +3,11 @@
 print_Sync is a lightweight Python-based system designed to enhance the safety of automated downloads by acting as a **disposable firewall**. It is currently implemented for **local machines** and serves as an intermediary for processing common 3D printing files (such as **STL and OBJ**) before allowing them to reach more sensitive production environments. By isolating downloads and performing security checks, print_Sync aims to **prevent malware infections from spreading**.
 
 ---
+
+## Please read the `about_me.md` if your intrested in more about the project
+
+---
+
 ## Overview
 
 In automated workflows—specificaly those involving **3D printing files**—maintaining system integrity is crucial to contunuous operation.
